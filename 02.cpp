@@ -26,7 +26,13 @@ int main() {
     // 使用while循环接收持续输入的n
     while(cin>>n) {
         // 使用for循环执行n次的输入和输出
-        for(int i = 0; i < n; i++) {
+        // for(int i = 0; i < n; i++) {
+        //     cin >> a >> b;
+        //     cout << a + b << endl;
+        // }
+        
+        // 使用while
+        while(n--) {
             cin >> a >> b;
             cout << a + b << endl;
         }
